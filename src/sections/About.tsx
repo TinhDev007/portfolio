@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className="col-md-6 col-lg-7 pl-lg-5 pb-5">
             <div className="row justify-content-start pb-3">
-              <div className="col-md-12 heading-section ftco-animate">
+              <div className="col-md-12 heading-section">
                 <h1 className="big">About</h1>
                 <h2 className="mb-4">About Me</h2>
                 <p>
@@ -48,7 +48,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <div className="counter-wrap ftco-animate d-flex mt-md-3">
+            <div className="counter-wrap  d-flex mt-md-3">
               <div className="text">
                 <p className="mb-4">
                   <span className="number" data-number="120">

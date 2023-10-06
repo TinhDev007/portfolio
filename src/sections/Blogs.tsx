@@ -5,7 +5,7 @@ const Blogs = () => {
     <section className="ftco-section" id="blog-section">
       <div className="container">
         <div className="row justify-content-center mb-5 pb-5">
-          <div className="col-md-7 heading-section text-center ftco-animate">
+          <div className="col-md-7 heading-section text-center">
             <h1 className="big big-2">Blog</h1>
             <h2 className="mb-4">Our Blog</h2>
             <p>
@@ -15,7 +15,7 @@ const Blogs = () => {
           </div>
         </div>
         <div className="row d-flex">
-          <div className="col-md-4 d-flex ftco-animate">
+          <div className="col-md-4 d-flex">
             <div className="blog-entry justify-content-end">
               <a href="single.html" className="block-20"></a>
               <div className="text mt-3 float-right d-block">
@@ -42,7 +42,7 @@ const Blogs = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 d-flex ftco-animate">
+          <div className="col-md-4 d-flex">
             <div className="blog-entry justify-content-end">
               <a href="single.html" className="block-20"></a>
               <div className="text mt-3 float-right d-block">
@@ -69,7 +69,7 @@ const Blogs = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 d-flex ftco-animate">
+          <div className="col-md-4 d-flex">
             <div className="blog-entry">
               <a href="single.html" className="block-20"></a>
               <div className="text mt-3 float-right d-block">

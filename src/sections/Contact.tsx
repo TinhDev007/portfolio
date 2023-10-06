@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <div className="container">
         <div className="row justify-content-center mb-5 pb-3">
-          <div className="col-md-7 heading-section text-center ftco-animate">
+          <div className="col-md-7 heading-section text-center">
             <h1 className="big big-2">Contact</h1>
             <h2 className="mb-4">Contact Me</h2>
             <p>
@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="row d-flex contact-info mb-5">
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div className="col-md-6 col-lg-3 d-flex">
             <div className="align-self-stretch box p-4 text-center">
               <div className="icon d-flex align-items-center justify-content-center">
                 <span className="icon-map-signs"></span>
@@ -28,7 +28,7 @@ const Contact = () => {
               <p>198 West 21th Street, Suite 721 New York NY 10016</p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div className="col-md-6 col-lg-3 d-flex">
             <div className="align-self-stretch box p-4 text-center">
               <div className="icon d-flex align-items-center justify-content-center">
                 <span className="icon-phone2"></span>
@@ -39,7 +39,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div className="col-md-6 col-lg-3 d-flex">
             <div className="align-self-stretch box p-4 text-center">
               <div className="icon d-flex align-items-center justify-content-center">
                 <span className="icon-paper-plane"></span>
@@ -50,7 +50,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div className="col-md-6 col-lg-3 d-flex">
             <div className="align-self-stretch box p-4 text-center">
               <div className="icon d-flex align-items-center justify-content-center">
                 <span className="icon-globe"></span>

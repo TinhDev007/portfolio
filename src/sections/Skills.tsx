@@ -5,7 +5,7 @@ const Skills = () => {
     <section className="ftco-section" id="skills-section">
       <div className="container">
         <div className="row justify-content-center pb-5">
-          <div className="col-md-12 heading-section text-center ftco-animate">
+          <div className="col-md-12 heading-section text-center">
             <h1 className="big big-2">Skills</h1>
             <h2 className="mb-4">My Skills</h2>
             <p>
@@ -16,7 +16,7 @@ const Skills = () => {
         </div>
         <div className="row">
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>Photoshop</h3>
               <div className="progress">
                 <div
@@ -33,7 +33,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>jQuery</h3>
               <div className="progress">
                 <div
@@ -50,7 +50,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>HTML5</h3>
               <div className="progress">
                 <div
@@ -67,7 +67,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>CSS3</h3>
               <div className="progress">
                 <div
@@ -84,7 +84,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>WordPress</h3>
               <div className="progress">
                 <div
@@ -101,7 +101,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="col-md-6 animate-box">
-            <div className="progress-wrap ftco-animate">
+            <div className="progress-wrap">
               <h3>SEO</h3>
               <div className="progress">
                 <div
