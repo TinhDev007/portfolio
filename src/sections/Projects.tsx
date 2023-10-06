@@ -48,17 +48,8 @@ const Projects = () => {
                 <span>Web Design</span>
               </div>
             </div>
-
-            <div className="project img d-flex justify-content-center align-items-center">
-              <div className="overlay"></div>
-              <div className="text text-center p-4">
-                <h3>
-                  <a href="#">Branding &amp; Illustration Design</a>
-                </h3>
-                <span>Web Design</span>
-              </div>
-            </div>
           </div>
+
           <div className="col-md-4">
             <div className="row">
               <div className="col-md-12">
@@ -72,16 +63,28 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-12">
-                <div className="project img d-flex justify-content-center align-items-center">
-                  <div className="overlay"></div>
-                  <div className="text text-center p-4">
-                    <h3>
-                      <a href="#">Branding &amp; Illustration Design</a>
-                    </h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="project img d-flex justify-content-center align-items-center">
+              <div className="overlay"></div>
+              <div className="text text-center p-4">
+                <h3>
+                  <a href="#">Branding &amp; Illustration Design</a>
+                </h3>
+                <span>Web Design</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-8">
+            <div className="project img d-flex justify-content-center align-items-center">
+              <div className="overlay"></div>
+              <div className="text text-center p-4">
+                <h3>
+                  <a href="#">Branding &amp; Illustration Design</a>
+                </h3>
+                <span>Web Design</span>
               </div>
             </div>
           </div>

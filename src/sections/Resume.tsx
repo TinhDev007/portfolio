@@ -1,3 +1,37 @@
+const resumeList = [
+  {
+    date: '2014-2015',
+    role: 'Master Degree of Design',
+    position: '',
+    description: '',
+  },
+  {
+    date: '2014-2015',
+    role: `Bachelor's Degree of C.A`,
+    position: '',
+    description: '',
+  },
+  {
+    date: '2014-2015',
+    role: 'Diploma in Computer',
+    position: '',
+    description: '',
+  },
+  {
+    date: '2014-2015',
+    role: 'Art &amp; Creative Director',
+    position: '',
+    description: '',
+  },
+  {
+    date: '2014-2015',
+    role: 'Wordpress Developer',
+    position: '',
+    description: '',
+  },
+  { date: '2014-2015', role: 'UI/UX Designer', position: '', description: '' },
+]
+
 const Resume = () => {
   return (
     <section className="ftco-section ftco-no-pb" id="resume-section">
@@ -14,71 +48,20 @@ const Resume = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6">
-            <div className="resume-wrap">
-              <span className="date">2014-2015</span>
-              <h2>Master Degree of Design</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
+          {resumeList.map((resume, index) => (
+            <div className="col-md-6" key={index}>
+              <div className="resume-wrap">
+                <span className="date">{resume.date}</span>
+                <h2>{resume.role}</h2>
+                <span className="position">Cambridge University</span>
+                <p className="mt-4">
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia. It is a paradisematic country,
+                  in which roasted parts of sentences fly into your mouth.
+                </p>
+              </div>
             </div>
-            <div className="resume-wrap">
-              <span className="date">2014-2015</span>
-              <h2>Bachelor's Degree of C.A</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
-            </div>
-            <div className="resume-wrap">
-              <span className="date">2014-2015</span>
-              <h2>Diploma in Computer</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-6">
-            <div className="resume-wrap">
-              <span className="date">2014-2015</span>
-              <h2>Art &amp; Creative Director</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
-            </div>
-            <div className="resume-wrap">
-              <span className="date">2014-2015</span>
-              <h2>Wordpress Developer</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
-            </div>
-            <div className="resume-wrap">
-              <span className="date">2017-2018</span>
-              <h2>UI/UX Designer</h2>
-              <span className="position">Cambridge University</span>
-              <p className="mt-4">
-                A small river named Duden flows by their place and supplies it
-                with the necessary regelialia. It is a paradisematic country, in
-                which roasted parts of sentences fly into your mouth.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
         <div className="row justify-content-center mt-5">
           <div className="col-md-6 text-center">
