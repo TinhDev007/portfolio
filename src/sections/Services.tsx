@@ -1,4 +1,11 @@
-import React from 'react'
+const serviceList = [
+  { link: '#', icon: 'analysis', name: 'Web Design' },
+  { link: '#', icon: 'flasks', name: 'Phtography' },
+  { link: '#', icon: 'ideas', name: 'Web Developer' },
+  { link: '#', icon: 'analysis', name: 'App Developing' },
+  { link: '#', icon: 'flasks', name: 'Branding' },
+  { link: '#', icon: 'ideas', name: 'Product Strategy' },
+]
 
 const Services = () => {
   return (
@@ -15,67 +22,18 @@ const Services = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-analysis"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">Web Design</h3>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-flasks"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">Phtography</h3>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-ideas"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">Web Developer</h3>
-              </div>
-            </a>
-          </div>
-
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-analysis"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">App Developing</h3>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-flasks"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">Branding</h3>
-              </div>
-            </a>
-          </div>
-          <div className="col-md-4 text-center d-flex">
-            <a href="#" className="services-1">
-              <span className="icon">
-                <i className="flaticon-ideas"></i>
-              </span>
-              <div className="desc">
-                <h3 className="mb-5">Product Strategy</h3>
-              </div>
-            </a>
-          </div>
+          {serviceList.map((service, index) => (
+            <div className="col-md-4 text-center d-flex" key={index}>
+              <a href={service.link} className="services-1">
+                <span className="icon">
+                  <i className={`flaticon-${service.link}`}></i>
+                </span>
+                <div className="desc">
+                  <h3 className="mb-5">{service.name}</h3>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
